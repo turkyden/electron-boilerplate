@@ -38,6 +38,7 @@ class App extends React.Component<Props, State> {
       <div>
         <p>{text}</p>
         <button onClick={this.handleClick}>Click me to call RESTfull API from backend</button>
+        <p>v2</p>
       </div>
     );
   }
