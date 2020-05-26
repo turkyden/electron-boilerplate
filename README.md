@@ -1,6 +1,6 @@
 # Electron Boilerplate
 
-A template of my electron application.
+A template of my electron application. v2
 
 ## Stack
 
