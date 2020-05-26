@@ -1,7 +1,7 @@
 {
   "name": "electron-boilerplate",
   "productName": "electron-boilerplate",
-  "version": "0.0.1",
+  "version": "1.1.1",
   "description": "My Electron application description",
   "main": ".webpack/main",
   "scripts": {
@@ -29,7 +29,8 @@
           }
         },
         {
-          "name": "@electron-forge/maker-zip"
+          "name": "@electron-forge/maker-zip",
+          "platforms": ["darwin", "linux"]
         },
         {
           "name": "@electron-forge/maker-deb",
@@ -62,7 +63,7 @@
         {
           "name": "@electron-forge/publisher-github",
           "config": {
-            "authToken": "eaa1451f93b61fc685f1bd69d44e558ab76e9888",
+            "authToken": "e366cf0186b4b4123ea47ee97c6140b6591301d9",
             "repository": {
               "owner": "Turkyden",
               "name": "electron-boilerplate"
