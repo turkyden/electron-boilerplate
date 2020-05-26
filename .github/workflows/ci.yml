@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
     - uses: actions/checkout@v2
 
-    - name: Install and Publish
+    - name: Checkout
       run: yarn install && yarn run publish
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
