@@ -62,7 +62,7 @@
         {
           "name": "@electron-forge/publisher-github",
           "config": {
-            "authToken": "172748c3f581382a5c8e4d89fc7a6b3b1c884a37",
+            "authToken": "eaa1451f93b61fc685f1bd69d44e558ab76e9888",
             "repository": {
               "owner": "Turkyden",
               "name": "electron-boilerplate"
