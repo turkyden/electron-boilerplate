@@ -1,4 +1,4 @@
-name: GitHub Actions Build and Deploy Demo
+name: GitHub Actions Build and Deploy Project
 on:
   push:
     branches:
@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-
+    - name: Checkout
     - uses: actions/checkout@v2
 
-    - name: Checkout
-      run: npm install && npm run publish
+    - name: Install and Publish
+      run: yarn install && yarn run publish
       env:
         GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
